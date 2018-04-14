@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    background-color: #ffffff
+  }
+
+  body {
+    color: #777777;
+  }
+
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ccc;
+  }
+
+  a:link {
+    color: #777777;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+#top-row {
+    background-color: gray;
+    text-align: center;
+    margin: 10px, 20px, 10px, 20px;
+}
+
+h1 {
+    font-size: large;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+#About {
+    width: 960px;
+    background-color: #dddddd
+}
+
+
+
+
+
+
+
+
+/*.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}*/
