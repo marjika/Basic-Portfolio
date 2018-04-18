@@ -3,6 +3,7 @@
     
   }
 
+  /* Body characteristics include given font and a background image. */
   body {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
@@ -14,6 +15,7 @@
     color: #777777;
   }
 
+  /* Top box on page. */
   header {
     font-family: "Georgia", Times, Times New Roman, serif;
     height:80px;
@@ -22,7 +24,7 @@
     border-bottom: 2px solid #cccccc;
   }
 
-
+  /* Links to the 3 other pages. */
   a {
     float: right;
     padding: 10px;
@@ -41,7 +43,7 @@
     overflow: auto;
 }
 
-
+/* Name in top box. */
 h1 {
     color: #ffffff;
     padding-top: 20px;
@@ -55,12 +57,14 @@ h1 {
     font-size: 30px;
 }
 
+/* Title of content. */
 h2 {
     color: #4aaaa5;
     float: left;
     font-family: "Georgia", Times, Times New Roman, serif;
 }
 
+/* Content area. */
 section {
     width: 960px;
     height: 430px;
@@ -73,11 +77,12 @@ section {
     border: 2px solid #dddddd;
 }
 
-#Biography {
+#Content {
     border-top: 4px solid  #dddddd;
     margin-top: 60px;
 }
 
+/* Photo */
 #Marjika {
     float: left;
     height: 150px;
@@ -87,7 +92,67 @@ section {
     margin-right: 20px;
 }
 
+form {
+    margin-top: 15px;
+}
 
+/* input buttons */
+#text, #message {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    width: 895px;
+    border: 2px solid #dddddd;
+    padding: 5px 5px;
+    outline: none;
+}
+
+/* This is the message handler. */
+#message {
+    height: 155px;
+}
+
+/* Submit button */
+#submit {
+    background-color: #4aaaa5;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color:  #ffffff;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+table {
+    margin-top: 12px;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 100%;
+    
+}
+
+.port {
+    height: 140px;
+    width: 175px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-right: 90px;
+    margin-top: 0px;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    position: relative;
+    bottom: 45px;
+    padding: 5px;
+    padding-top: 7px;
+    width: 175px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
 
 .footer {
     clear: both;
