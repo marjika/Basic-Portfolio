@@ -10,8 +10,6 @@
     padding: 0;
     background-color: #dbc0d7;
     background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. 
-    Thank you! */
     color: #777777;
   }
 
@@ -24,7 +22,7 @@
     border-bottom: 2px solid #cccccc;
   }
 
-  /* Links to the 3 other pages. */
+  /* Links to the 3 htmls/pages. */
   a {
     float: right;
     padding: 10px;
@@ -82,7 +80,7 @@ section {
     margin-top: 60px;
 }
 
-/* Photo */
+/* Bio Photo */
 #Marjika {
     float: left;
     height: 150px;
@@ -90,14 +88,16 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    text-align: left;
 }
 
+/* Contacts Page */
 form {
     margin-top: 15px;
 }
 
 /* input buttons */
-#text, #message {
+#text, #text2, #message {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
     width: 895px;
@@ -106,7 +106,7 @@ form {
     outline: none;
 }
 
-/* This is the message handler. */
+/* This is the message input box. */
 #message {
     height: 155px;
 }
@@ -121,9 +121,10 @@ form {
     padding-bottom: 6px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
+/* Portfolio page */
 table {
     margin-top: 12px;
     border-collapse: collapse;
@@ -132,6 +133,7 @@ table {
     
 }
 
+/* Photos representing projects in the portfolio */
 .port {
     height: 140px;
     width: 175px;
@@ -141,6 +143,7 @@ table {
     margin-top: 0px;
 }
 
+/* Title of each project, placed over the photo. */
 .caption {
     background-color: #4aaaa5;
     position: relative;
@@ -167,13 +170,3 @@ table {
 }
 
 
-
-
-
-
-
-/*.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}*/
